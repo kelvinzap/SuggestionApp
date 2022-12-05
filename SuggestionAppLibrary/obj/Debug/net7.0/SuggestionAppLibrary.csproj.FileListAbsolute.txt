@@ -1,11 +1,11 @@
-C:\Users\USER\source\repos\SuggestionApp\SuggestionAppLibrary\bin\Debug\net7.0\SuggestionAppLibrary.deps.json
-C:\Users\USER\source\repos\SuggestionApp\SuggestionAppLibrary\bin\Debug\net7.0\SuggestionAppLibrary.dll
-C:\Users\USER\source\repos\SuggestionApp\SuggestionAppLibrary\bin\Debug\net7.0\SuggestionAppLibrary.pdb
 C:\Users\USER\source\repos\SuggestionApp\SuggestionAppLibrary\obj\Debug\net7.0\SuggestionAppLibrary.csproj.AssemblyReference.cache
 C:\Users\USER\source\repos\SuggestionApp\SuggestionAppLibrary\obj\Debug\net7.0\SuggestionAppLibrary.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\USER\source\repos\SuggestionApp\SuggestionAppLibrary\obj\Debug\net7.0\SuggestionAppLibrary.AssemblyInfoInputs.cache
 C:\Users\USER\source\repos\SuggestionApp\SuggestionAppLibrary\obj\Debug\net7.0\SuggestionAppLibrary.AssemblyInfo.cs
 C:\Users\USER\source\repos\SuggestionApp\SuggestionAppLibrary\obj\Debug\net7.0\SuggestionAppLibrary.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\SuggestionApp\SuggestionAppLibrary\bin\Debug\net7.0\SuggestionAppLibrary.deps.json
+C:\Users\USER\source\repos\SuggestionApp\SuggestionAppLibrary\bin\Debug\net7.0\SuggestionAppLibrary.dll
+C:\Users\USER\source\repos\SuggestionApp\SuggestionAppLibrary\bin\Debug\net7.0\SuggestionAppLibrary.pdb
 C:\Users\USER\source\repos\SuggestionApp\SuggestionAppLibrary\obj\Debug\net7.0\SuggestionAppLibrary.dll
 C:\Users\USER\source\repos\SuggestionApp\SuggestionAppLibrary\obj\Debug\net7.0\refint\SuggestionAppLibrary.dll
 C:\Users\USER\source\repos\SuggestionApp\SuggestionAppLibrary\obj\Debug\net7.0\SuggestionAppLibrary.pdb
