@@ -1,0 +1,98 @@
+@page "/Create"
+@using SuggestionAppUI.Models
+@using SuggestionAppUI.Components
+@inject ICategoryData CategoryData
+@inject ISuggestionData SuggestionData
+@inject NavigationManager NavigationManager
+@inject IUserData UserData
+
+<h1>Make A Suggestion</h1>
+
+<div>
+    <div>
+        <div>
+            <button @onclick="ClosePage"></button>
+        </div>
+        @if (Categories is not null)
+        {
+            <EditForm Model="suggestion" OnValidSubmit="CreateSuggestion">
+                <DataAnnotationsValidator/>
+                <ValidationSummary/>
+                <div>
+                    <label for="suggestion-text">Suggestion</label>
+                    <div>Focus on the topic or technology you want to learn about.</div>
+                    <InputText id="suggestion-text" @bind-Value="suggestion.Suggestion"/>
+                </div>
+                
+                <div>
+                    <label for="category">Category</label>
+                    <div>Choose one category.</div>
+                    <div>
+                        <MyInputRadioGroup id="category" @bind-Value="suggestion.CategoryId">
+                            @foreach (var c in Categories)
+                            {
+                                <div>
+                                    <InputRadio Value="@c.Id" id="@c.Id"/>
+                                    <label for="@c.Id">@c.CategoryName - @c.CategoryDescription</label>
+                                </div>
+                            }
+                        </MyInputRadioGroup>
+                    </div>
+                    
+                </div>
+                
+                <div>
+                    <label for="description-text">Description</label>
+                    <div>Briefly describe your suggestion.</div>
+                    <InputTextArea id="description-text" @bind-Value="suggestion.Description"/>
+                </div>
+                
+                <div>
+                    <button type="submit">Suggest</button>
+                </div>
+                
+            </EditForm>
+        }
+    </div>
+</div>
+
+@code {
+    private CreateSuggestionModel suggestion = new();
+    private List<CategoryModel> Categories;
+    private UserModel loggedInUser;
+
+    protected override async Task OnInitializedAsync()
+    {
+        Categories = await CategoryData.GetAllCategoriesAsync();
+        
+        //TODO - replace with user lookup
+        loggedInUser = await UserData.GetUserFromAuthentication("abc-123");
+    }
+
+    private void ClosePage()
+    {
+        NavigationManager.NavigateTo("/");
+    }
+
+    private async Task CreateSuggestion()
+    {
+        SuggestionModel s = new()
+        {
+            Suggestion = suggestion.Suggestion,
+            Description = suggestion.Description,
+            Author = new BasicUserModel(loggedInUser),
+            Category = Categories.FirstOrDefault(x => x.Id == suggestion.CategoryId)
+        };
+
+        if (s.Category is null)
+        {
+            suggestion.CategoryId = "";
+            return;
+        }
+
+        await SuggestionData.CreateSuggestion(s);
+        suggestion = new CreateSuggestionModel();
+        ClosePage();
+    }
+ 
+}
