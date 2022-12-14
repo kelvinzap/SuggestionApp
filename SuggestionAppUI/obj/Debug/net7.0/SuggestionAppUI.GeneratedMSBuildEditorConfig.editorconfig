@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/USER/source/repos/SuggestionApp/SuggestionAppUI/Pages/AdminApproval.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5BcHByb3ZhbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/USER/source/repos/SuggestionApp/SuggestionAppUI/Pages/Create.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/USER/source/repos/SuggestionApp/SuggestionAppUI/Pages/SampleData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtcGxlRGF0YS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/source/repos/SuggestionApp/SuggestionAppUI/Shared/NotAuthorized.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5vdEF1dGhvcml6ZWQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/USER/source/repos/SuggestionApp/SuggestionAppUI/_Imports.razor]
