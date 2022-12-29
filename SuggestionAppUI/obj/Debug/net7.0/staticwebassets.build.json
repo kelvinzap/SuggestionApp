@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rM5pP/oK1olseH7La/GTGhEJlDfPk0JdYKPx2Dc8siM=",
+  "Hash": "CxIQ1+f/iUt1RBa9kEGRggvE1tkwQ9e1XnVsTaFpU08=",
   "Source": "SuggestionAppUI",
   "BasePath": "_content/SuggestionAppUI",
   "Mode": "Default",
@@ -270,6 +270,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\SuggestionApp\\SuggestionAppUI\\wwwroot\\images\\blue_gradient_abstract_background_modern_colorful.jpg",
+      "SourceId": "SuggestionAppUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\SuggestionApp\\SuggestionAppUI\\wwwroot\\",
+      "BasePath": "_content/SuggestionAppUI",
+      "RelativePath": "images/blue_gradient_abstract_background_modern_colorful.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\blue_gradient_abstract_background_modern_colorful.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\SuggestionApp\\SuggestionAppUI\\wwwroot\\images\\unnamed.png",
+      "SourceId": "SuggestionAppUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\SuggestionApp\\SuggestionAppUI\\wwwroot\\",
+      "BasePath": "_content/SuggestionAppUI",
+      "RelativePath": "images/unnamed.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\unnamed.png"
     }
   ]
 }

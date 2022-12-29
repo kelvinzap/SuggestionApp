@@ -1,6 +1,8 @@
 @page "/Details/{id}"
 @inject ISuggestionData SuggestionData
 @inject NavigationManager NavigationManager
+@inject IUserData _userData
+@inject AuthenticationStateProvider authProvider
 
 <h1>Suggestion Details</h1>
 
@@ -10,13 +12,13 @@
         {
             <div>
                 <div>
-                    <div>
+                    <div @onclick="VoteUp">
                         <div>@GetUpVoteTopText()</div>
                         <span class="oi oi-caret-top"></span>
                         <div>@GetUpvoteBottomText()</div>
                     </div>
                     <div>
-                        <div>@suggestion.DateCreated.ToString("MM.dd.yyyy")</div>
+                        <div>@suggestion.DateCreated.ToString("MM.dd.yyyy")</div> 
                     </div>
                 </div>
                 <div>
@@ -52,6 +54,7 @@
     </div>
 }
 @code {
+    private UserModel loggedInUser;
     [Parameter]
     public string Id { get; set; }
 
@@ -60,17 +63,46 @@
     protected override async Task OnInitializedAsync()
     {
         suggestion = await SuggestionData.GetSuggestion(Id);
+        loggedInUser = await authProvider.GetUserFromAuth(_userData);
     }
 
     private void ClosePage()
     {
         NavigationManager.NavigateTo("/");
     }
+    
+    private async Task VoteUp()
+    {
+        if (loggedInUser is not null)
+        {
+            if (suggestion.Author.Id == loggedInUser.Id)
+            {
+    //can't vote on your own suggestion
+                return;
+            }
+            if (!suggestion.UserVotes.Add(loggedInUser.Id))
+            {
+                suggestion.UserVotes.Remove(loggedInUser.Id);
+            }
+
+            await SuggestionData.UpvoteSuggestion(suggestion.Id, loggedInUser.Id);
+        }
+        else
+        {
+            NavigationManager.NavigateTo("/MicrosoftIdentity/Account/SignIn", true);
+        }
+    }
 
     private string GetUpVoteTopText()
     {
-        return suggestion.UserVotes?.Count > 0 ? 
-            suggestion.UserVotes.Count.ToString("00") : "Click To";
+        if (suggestion.UserVotes?.Count > 0)
+        {
+            return suggestion.UserVotes.Count.ToString("00");
+        }
+        else
+        {
+            return suggestion.Author.Id == loggedInUser.Id ? "Awaiting" : "Click To";
+        }
     }
     
     private string GetUpvoteBottomText()

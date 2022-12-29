@@ -1,11 +1,7 @@
+C:\Users\USER\source\repos\SuggestionApp\SuggestionAppUI\bin\Debug\net7.0\SuggestionAppUI.exe
 C:\Users\USER\source\repos\SuggestionApp\SuggestionAppUI\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\USER\source\repos\SuggestionApp\SuggestionAppUI\bin\Debug\net7.0\appsettings.json
 C:\Users\USER\source\repos\SuggestionApp\SuggestionAppUI\bin\Debug\net7.0\SuggestionAppUI.staticwebassets.runtime.json
-C:\Users\USER\source\repos\SuggestionApp\SuggestionAppUI\bin\Debug\net7.0\SuggestionAppUI.exe
-C:\Users\USER\source\repos\SuggestionApp\SuggestionAppUI\bin\Debug\net7.0\SuggestionAppUI.deps.json
-C:\Users\USER\source\repos\SuggestionApp\SuggestionAppUI\bin\Debug\net7.0\SuggestionAppUI.runtimeconfig.json
-C:\Users\USER\source\repos\SuggestionApp\SuggestionAppUI\bin\Debug\net7.0\SuggestionAppUI.dll
-C:\Users\USER\source\repos\SuggestionApp\SuggestionAppUI\bin\Debug\net7.0\SuggestionAppUI.pdb
 C:\Users\USER\source\repos\SuggestionApp\SuggestionAppUI\bin\Debug\net7.0\Azure.Core.dll
 C:\Users\USER\source\repos\SuggestionApp\SuggestionAppUI\bin\Debug\net7.0\Azure.Identity.dll
 C:\Users\USER\source\repos\SuggestionApp\SuggestionAppUI\bin\Debug\net7.0\Azure.Security.KeyVault.Certificates.dll
@@ -73,5 +69,9 @@ C:\Users\USER\source\repos\SuggestionApp\SuggestionAppUI\obj\Debug\net7.0\Sugges
 C:\Users\USER\source\repos\SuggestionApp\SuggestionAppUI\obj\Debug\net7.0\SuggestionAppUI.dll
 C:\Users\USER\source\repos\SuggestionApp\SuggestionAppUI\obj\Debug\net7.0\refint\SuggestionAppUI.dll
 C:\Users\USER\source\repos\SuggestionApp\SuggestionAppUI\obj\Debug\net7.0\SuggestionAppUI.pdb
+C:\Users\USER\source\repos\SuggestionApp\SuggestionAppUI\bin\Debug\net7.0\SuggestionAppUI.deps.json
+C:\Users\USER\source\repos\SuggestionApp\SuggestionAppUI\bin\Debug\net7.0\SuggestionAppUI.runtimeconfig.json
+C:\Users\USER\source\repos\SuggestionApp\SuggestionAppUI\bin\Debug\net7.0\SuggestionAppUI.dll
+C:\Users\USER\source\repos\SuggestionApp\SuggestionAppUI\bin\Debug\net7.0\SuggestionAppUI.pdb
 C:\Users\USER\source\repos\SuggestionApp\SuggestionAppUI\obj\Debug\net7.0\SuggestionAppUI.genruntimeconfig.cache
 C:\Users\USER\source\repos\SuggestionApp\SuggestionAppUI\obj\Debug\net7.0\ref\SuggestionAppUI.dll

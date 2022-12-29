@@ -57,6 +57,14 @@
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
+      "Id": "C:\\Users\\USER\\source\\repos\\SuggestionApp\\SuggestionAppUI\\wwwroot\\images\\blue_gradient_abstract_background_modern_colorful.jpg",
+      "PackagePath": "staticwebassets\\images\\blue_gradient_abstract_background_modern_colorful.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\SuggestionApp\\SuggestionAppUI\\wwwroot\\images\\unnamed.png",
+      "PackagePath": "staticwebassets\\images\\unnamed.png"
+    },
+    {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.SuggestionAppUI.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
