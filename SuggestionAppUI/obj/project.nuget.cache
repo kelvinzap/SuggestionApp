@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qsCPIRaSmVA6rJATE1KWZKgrEJGws5iyFlBvnMcKGcqdnDGLmy3RYlnWjFMNachbpzXvN+ofUyM/h0Zn/vT40g==",
+  "dgSpecHash": "ag24tDM8s7e+O64mKt1O+D8cvGc0qulLRwxA28yu6vnu5X93iTFJVgGXP29Y6LDe0rvTTocjT6Ts16ndeJhW2Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\USER\\source\\repos\\SuggestionApp\\SuggestionAppUI\\SuggestionAppUI.csproj",
   "expectedPackageFiles": [
@@ -70,7 +70,11 @@
     "C:\\Users\\USER\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\zstdsharp.port\\0.6.2\\zstdsharp.port.0.6.2.nupkg.sha512"
+    "C:\\Users\\USER\\.nuget\\packages\\zstdsharp.port\\0.6.2\\zstdsharp.port.0.6.2.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.9\\microsoft.windowsdesktop.app.ref.7.0.9.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.9\\microsoft.netcore.app.ref.7.0.9.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.9\\microsoft.aspnetcore.app.ref.7.0.9.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.9\\microsoft.netcore.app.host.win-x64.7.0.9.nupkg.sha512"
   ],
   "logs": []
 }

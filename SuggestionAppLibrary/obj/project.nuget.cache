@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HvnegODcJ3Q1TqMk5eC28VNAQ2AhS9LAALwEGJN2xSAuVsupJKX87hVmnhyJSTycZrjIGV0LK7yJOMMJ4uKWlw==",
+  "dgSpecHash": "qHWkMOMRwog0f5kZPu8ZcoBqfDgqKCxXCR749mAaJxg8fLoZ1i1A5jtAyIB3LvhdLoAmAIx3ysJ1S/3E5wmEFw==",
   "success": true,
   "projectFilePath": "C:\\Users\\USER\\source\\repos\\SuggestionApp\\SuggestionAppLibrary\\SuggestionAppLibrary.csproj",
   "expectedPackageFiles": [
@@ -24,7 +24,10 @@
     "C:\\Users\\USER\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\zstdsharp.port\\0.6.2\\zstdsharp.port.0.6.2.nupkg.sha512"
+    "C:\\Users\\USER\\.nuget\\packages\\zstdsharp.port\\0.6.2\\zstdsharp.port.0.6.2.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.9\\microsoft.windowsdesktop.app.ref.7.0.9.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.9\\microsoft.netcore.app.ref.7.0.9.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.9\\microsoft.aspnetcore.app.ref.7.0.9.nupkg.sha512"
   ],
   "logs": []
 }

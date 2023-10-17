@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CxIQ1+f/iUt1RBa9kEGRggvE1tkwQ9e1XnVsTaFpU08=",
+  "Hash": "tRHIvpQjWT+9qTgyucPkTCqa3SaWCh07J08GQvTqc7Y=",
   "Source": "SuggestionAppUI",
   "BasePath": "_content/SuggestionAppUI",
   "Mode": "Default",
@@ -83,23 +83,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\USER\\source\\repos\\SuggestionApp\\SuggestionAppUI\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "SuggestionAppUI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\USER\\source\\repos\\SuggestionApp\\SuggestionAppUI\\wwwroot\\",
-      "BasePath": "_content/SuggestionAppUI",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "C:\\Users\\USER\\source\\repos\\SuggestionApp\\SuggestionAppUI\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
@@ -202,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\SuggestionApp\\SuggestionAppUI\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "SuggestionAppUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\SuggestionApp\\SuggestionAppUI\\wwwroot\\",
+      "BasePath": "_content/SuggestionAppUI",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "C:\\Users\\USER\\source\\repos\\SuggestionApp\\SuggestionAppUI\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
